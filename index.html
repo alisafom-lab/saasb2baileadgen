@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DrSaleFlow - Qualified Sales Calls, Pay Per Show</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'primary-one': '#6bc70d',
+          'secondary': '#1c6f14',
+          'primary-two': '#1814f3',
+          'bg-one': '#1f2025',
+          'bg-two': '#121418',
+          'body-bg': '#060606',
+          'body': '#cfcfcf',
+          'title': '#fff',
+        },
+        fontFamily: {
+          body: ['Inter', 'sans-serif'],
+          heading: ['"Nunito Sans"', 'sans-serif'],
+        },
+        borderRadius: {
+          'lg': '0.5rem',
+          'xl': '0.75rem',
+          '2xl': '1rem',
+          '3xl': '1.5rem',
+        },
+      }
+    }
+  }
+</script>
+</head>
+<body class="bg-body-bg text-body font-body antialiased">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-body-bg/80 backdrop-blur border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-20">
+      <a href="#" class="font-heading text-2xl font-bold text-title">
+        Dr<span class="text-primary-one">SaleFlow</span>
+      </a>
+      <a href="https://calendly.com/alisafom-drsaleflow/30min" target="_blank" rel="noopener"
+         class="inline-flex items-center justify-center rounded-lg bg-primary-one px-5 py-2.5 sm:px-6 sm:py-3 font-semibold text-body-bg hover:bg-secondary hover:text-title transition-colors">
+        Book a Meeting
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero / VSL -->
+  <section class="relative overflow-hidden">
+    <div class="pointer-events-none absolute -top-32 -left-32 h-80 w-80 rounded-full bg-primary-one/20 blur-3xl"></div>
+    <div class="pointer-events-none absolute top-10 -right-32 h-96 w-96 rounded-full bg-primary-two/20 blur-3xl"></div>
+
+    <div class="relative max-w-4xl mx-auto px-6 lg:px-8 py-16 md:py-24 text-center">
+      <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-title leading-tight">
+        Qualified sales calls on your calendar — you only pay when they show up.
+      </h1>
+      <p class="mt-6 text-lg max-w-2xl mx-auto">
+        Watch how DrSaleFlow books demos for B2B SaaS founders and sales teams.
+      </p>
+
+      <div class="mt-10 max-w-3xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-primary-one/10">
+        <div class="aspect-video">
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube-nocookie.com/embed/xYCwfB0Sprw"
+            title="DrSaleFlow video sales letter"
+            frameborder="0"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div class="mt-10">
+        <a href="https://calendly.com/alisafom-drsaleflow/30min" target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center rounded-lg bg-primary-one px-8 py-4 font-semibold text-body-bg hover:bg-secondary hover:text-title transition-colors">
+          Book a Meeting
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Problem -->
+  <section class="py-16 md:py-24 bg-bg-two border-y border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-primary-one font-semibold uppercase tracking-widest text-sm">The Problem</span>
+        <h2 class="mt-3 font-heading text-3xl sm:text-4xl font-bold text-title">Traditional Lead Gen Is Broken</h2>
+        <p class="mt-4">Cold lists, manual prospecting, and chasing no-shows waste founder time.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-3 gap-6">
+        <div class="rounded-2xl bg-bg-one p-8 border border-white/5 text-center">
+          <p class="font-heading text-4xl sm:text-5xl font-bold text-primary-one">~80%</p>
+          <p class="mt-3 text-sm">of leads never convert.</p>
+        </div>
+        <div class="rounded-2xl bg-bg-one p-8 border border-white/5 text-center">
+          <p class="font-heading text-4xl sm:text-5xl font-bold text-primary-one">39%</p>
+          <p class="mt-3 text-sm">of B2B SaaS leads become MQLs — 61% never pass the first qualification gate.</p>
+        </div>
+        <div class="rounded-2xl bg-bg-one p-8 border border-white/5 text-center">
+          <p class="font-heading text-4xl sm:text-5xl font-bold text-primary-one">13.1% → 9.8%</p>
+          <p class="mt-3 text-sm">median MQL→SQL conversion rate, 2024 to 2026.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12 md:mb-16">
+        <span class="text-primary-one font-semibold uppercase tracking-widest text-sm">How It Works</span>
+        <h2 class="mt-3 font-heading text-3xl sm:text-4xl font-bold text-title">From Cold List to Booked Call</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-6">
+        <div class="text-center">
+          <div class="mx-auto h-14 w-14 rounded-xl bg-primary-one/10 flex items-center justify-center text-primary-one mb-4">
+            <i data-lucide="target" class="h-6 w-6"></i>
+          </div>
+          <h3 class="font-heading font-bold text-title mb-1">ICP + Lead Sourcing</h3>
+          <p class="text-sm">Define the ideal customer, scrape and verify a targeted list.</p>
+        </div>
+        <div class="text-center">
+          <div class="mx-auto h-14 w-14 rounded-xl bg-primary-one/10 flex items-center justify-center text-primary-one mb-4">
+            <i data-lucide="server" class="h-6 w-6"></i>
+          </div>
+          <h3 class="font-heading font-bold text-title mb-1">Infrastructure Setup</h3>
+          <p class="text-sm">Domains purchased, Smartlead configured, inboxes warmed up.</p>
+        </div>
+        <div class="text-center">
+          <div class="mx-auto h-14 w-14 rounded-xl bg-primary-one/10 flex items-center justify-center text-primary-one mb-4">
+            <i data-lucide="mail" class="h-6 w-6"></i>
+          </div>
+          <h3 class="font-heading font-bold text-title mb-1">Cold Email Campaigns</h3>
+          <p class="text-sm">Copywriting, sending, and deliverability optimization.</p>
+        </div>
+        <div class="text-center">
+          <div class="mx-auto h-14 w-14 rounded-xl bg-primary-one/10 flex items-center justify-center text-primary-one mb-4">
+            <i data-lucide="monitor-play" class="h-6 w-6"></i>
+          </div>
+          <h3 class="font-heading font-bold text-title mb-1">VSL + Landing Page</h3>
+          <p class="text-sm">A custom video sales letter and matching landing page.</p>
+        </div>
+        <div class="text-center">
+          <div class="mx-auto h-14 w-14 rounded-xl bg-primary-one/10 flex items-center justify-center text-primary-one mb-4">
+            <i data-lucide="calendar-check" class="h-6 w-6"></i>
+          </div>
+          <h3 class="font-heading font-bold text-title mb-1">Booked Qualified Calls</h3>
+          <p class="text-sm">Managed, monitored — only qualified attendees count.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why It Works -->
+  <section class="py-16 md:py-24 bg-bg-two border-y border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-primary-one font-semibold uppercase tracking-widest text-sm">Why It Works</span>
+        <h2 class="mt-3 font-heading text-3xl sm:text-4xl font-bold text-title">Backed by Industry Data</h2>
+        <p class="mt-4 text-sm">Independent research on AI-assisted outbound — not DrSaleFlow's own results.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-3 gap-6">
+        <div class="rounded-2xl bg-bg-one p-8 border border-white/5 text-center">
+          <p class="font-heading text-4xl sm:text-5xl font-bold text-primary-one">3.3x</p>
+          <p class="mt-3 text-sm">more qualified meetings per dollar with hybrid AI + human outbound vs. traditional methods.</p>
+        </div>
+        <div class="rounded-2xl bg-bg-one p-8 border border-white/5 text-center">
+          <p class="font-heading text-4xl sm:text-5xl font-bold text-primary-one">$312 → $94</p>
+          <p class="mt-3 text-sm">cost per booked meeting, early 2025 to Q1 2026.</p>
+        </div>
+        <div class="rounded-2xl bg-bg-one p-8 border border-white/5 text-center">
+          <p class="font-heading text-4xl sm:text-5xl font-bold text-primary-one">287%</p>
+          <p class="mt-3 text-sm">higher response rate from multi-channel sequences (3+ channels).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Offer -->
+  <section class="py-16 md:py-24">
+    <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+      <span class="text-primary-one font-semibold uppercase tracking-widest text-sm">The Offer</span>
+      <h2 class="mt-3 font-heading text-3xl sm:text-4xl font-bold text-title">One Setup, Then Pay Per Result</h2>
+
+      <div class="mt-8 space-y-4 text-lg">
+        <p>Setup fee covers your entire system — domains, inboxes, list, VSL, and landing page.</p>
+        <p>After that, you only pay per qualified demo that shows up. No shows = no charge.</p>
+        <p>Month-to-month, no long contract.</p>
+      </div>
+
+      <div class="mt-10">
+        <a href="https://calendly.com/alisafom-drsaleflow/30min" target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center rounded-lg bg-primary-one px-8 py-4 font-semibold text-body-bg hover:bg-secondary hover:text-title transition-colors">
+          Book a Meeting
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-16 md:py-24 bg-bg-two border-t border-white/5">
+    <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold text-title">
+        Ready for Qualified Calls on Your Calendar?
+      </h2>
+      <div class="mt-8">
+        <a href="https://calendly.com/alisafom-drsaleflow/30min" target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center rounded-lg bg-primary-one px-8 py-4 font-semibold text-body-bg hover:bg-secondary hover:text-title transition-colors">
+          Book a Meeting
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 bg-bg-two">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <a href="#" class="font-heading text-xl font-bold text-title">
+        Dr<span class="text-primary-one">SaleFlow</span>
+      </a>
+      <p class="text-sm">© 2026 DrSaleFlow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
